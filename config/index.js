@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "886267f60b2cfadc1c753e77fb1f8170",
 
     // 模板消息id
-    TEMPLATE_ID: "W944bvvacwzzpiHIbi8mHs3cGyPnMBYYetHCp0C3tkU",
+    TEMPLATE_ID: "YRKDwpL9nvlVIyu_wIERms8_m64ThN9ON-I_Um5Vcj8",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "hPj00V_KNTB4gVOUQAHPE2dJoYBR1KJhyv3DI1a-cIk",
@@ -52,7 +52,6 @@ export const config = {
      */
     FESTIVALS: [
       {"type": "生日", "name": "小宝", "year": "2000", "date": "10-31"},
-      {"type": "节日", "name": "在一起", "year": "2021", "date": "05-23"},
       {"type": "生日", "name": "大宝", "year": "2000", "date": "10-31"},
     ],
 
@@ -61,7 +60,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -73,7 +72,7 @@ export const config = {
       // 在一起的日子
       {"keyword": "love_day", date: "2021-05-23"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
+     // {"keyword": "dirthday_day", date: "2020-01-04"},
     ],
 
     /** 插槽 */
